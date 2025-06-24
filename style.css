@@ -687,7 +687,7 @@ select.form-control {
 .navigation {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  padding: var(--space-16) 0;
+  padding: var(--space-12) 0;
   z-index: 100;
 }
 
@@ -699,13 +699,13 @@ select.form-control {
 .nav-wrapper {
   display: flex;
   justify-content: center;
-  position: relative;
   align-items: center;
+  position: relative;
 }
 
 .nav-links {
   display: flex;
-  gap: var(--space-32);
+  gap: var(--space-24);
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -1363,6 +1363,8 @@ select.form-control {
 .github-nav-link {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   padding: var(--space-8);
@@ -1378,6 +1380,7 @@ select.form-control {
   width: 28px;
   height: 28px;
   transition: transform var(--duration-normal) var(--ease-standard);
+  display: block;
 }
 
 .github-nav-link:hover .github-icon {
