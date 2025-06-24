@@ -12,6 +12,10 @@ The dashboard is built with plain HTML, CSS, and JavaScript, focusing on a clean
 -   **Responsive Design:** The layout is fully responsive and works on desktops, tablets, and mobile devices.
 -   **Light/Dark Mode:** Automatically adapts to your system's color scheme for comfortable viewing.
 
+## Live Demo
+
+You can view the live dashboard here: [https://piyushiitk24.github.io/pant-cricket-dashboard/](https://piyushiitk24.github.io/pant-cricket-dashboard/)
+
 ## Screenshots
 
 ### Overview
@@ -60,4 +64,4 @@ Then, open your browser and navigate to the provided local address.
 -   `style.css`: Contains all the styling rules for the application.
 -   `app.js`: Handles all the interactivity, such as switching between sections.
 -   `pant_*.png`: Image assets used for the charts in the analysis section.
--   `images/`: Contains screenshots of the different
+-   `images/`: Contains screenshots of the different sections of the dashboard.

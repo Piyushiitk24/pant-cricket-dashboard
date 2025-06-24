@@ -1,4 +1,3 @@
-
 :root {
   /* Colors */
   --color-background: rgba(252, 252, 249, 1);
@@ -1356,4 +1355,19 @@ select.form-control {
   .mystery-stats-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+}
+
+/* GitHub Link Icon */
+.github-link {
+  position: fixed;
+  bottom: var(--space-16);
+  right: var(--space-16);
+  z-index: 1000;
+  color: var(--color-text-secondary);
+  transition: color var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard);
+}
+
+.github-link:hover {
+  color: var(--color-primary);
+  transform: translateY(-2px);
 }
