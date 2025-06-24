@@ -44,9 +44,11 @@ You can view the live dashboard here: [https://piyushiitk24.github.io/pant-crick
 
 ## How to Run
 
-This is a static website. To view the project, simply open the `index.html` file in your web browser.
+You can view the live dashboard directly on GitHub Pages: [https://piyushiitk24.github.io/pant-cricket-dashboard/](https://piyushiitk24.github.io/pant-cricket-dashboard/)
 
-For the best experience, you can serve the files using a local web server. If you have Node.js installed, you can use a simple server like `http-server`:
+To run it locally, this is a static website. Simply open the `index.html` file in your web browser.
+
+For the best experience during local development, you can serve the files using a local web server. If you have Node.js installed, you can use a simple server like `http-server`:
 
 ```sh
 # Install http-server globally
