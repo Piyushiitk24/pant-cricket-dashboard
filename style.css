@@ -699,6 +699,8 @@ select.form-control {
 .nav-wrapper {
   display: flex;
   justify-content: center;
+  position: relative;
+  align-items: center;
 }
 
 .nav-links {
@@ -1357,17 +1359,37 @@ select.form-control {
   }
 }
 
-/* GitHub Link Icon */
-.github-link {
-  position: fixed;
-  bottom: var(--space-16);
-  right: var(--space-16);
-  z-index: 1000;
-  color: var(--color-text-secondary);
-  transition: color var(--duration-normal) var(--ease-standard), transform var(--duration-normal) var(--ease-standard);
+/* GitHub Nav Link */
+.github-nav-link {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: var(--space-8);
+  border-radius: var(--radius-base);
+  transition: background-color var(--duration-normal) var(--ease-standard);
 }
 
-.github-link:hover {
-  color: var(--color-primary);
-  transform: translateY(-2px);
+.github-nav-link:hover {
+  background-color: var(--color-secondary);
+}
+
+.github-icon {
+  width: 28px;
+  height: 28px;
+  transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.github-nav-link:hover .github-icon {
+  transform: scale(1.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .github-icon {
+    filter: invert(1);
+  }
+}
+
+[data-color-scheme="dark"] .github-icon {
+  filter: invert(1);
 }
