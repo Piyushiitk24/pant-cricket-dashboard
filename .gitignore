@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Node dependencies
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build output
+dist
+build
+.next/
+out/
+
+# System files
+Thumbs.db
+ehthumbs.db
